@@ -1,0 +1,37 @@
+.caixa-pesquisa{
+    float: right;
+}
+@media (max-width:700px){
+    .caixa-pesquisa{
+        float: left!important;
+    }
+}
+
+.cor-atributo{
+    color:rgb(255, 255, 255)!important;  
+}
+
+.padding-atributo{
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+@media (max-width: 777px){
+    .padding-atributo{
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+}
+
+.hover:hover{
+    cursor: pointer;
+}
+
+.texto-tabela{
+    word-wrap: break-word;
+}
+
+.img-nav{
+    height: 90px;
+    width: 110px;
+}
